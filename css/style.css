@@ -1,0 +1,121 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Segoue', sans-serif;
+	background: #333333;
+	line-height: 1.6em;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+#container {
+	width: 740px;
+	background: #a6a6a6;
+	margin: auto;
+}
+
+section {
+	background: grey;
+	border: 1px solid black;
+}
+
+header {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+header h1 {
+	padding-top: 10px;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.repo {
+    margin: 20px 0px 20px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content {
+	border-bottom: 1px #333333 dotted;
+}
+
+.invalid-content {
+	margin: 20px;
+}
+
+#repos {
+	border: 1px solid black;
+	background: #a6a6a6;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow: 0 10px 10px rgba(0,0,0, 0.2);
+	-webkit-box-shadow: 0 10px 10px rgba(0,0,0, 0.2);
+	box-shadow: 0 10px 10px rgba(0,0,0, 0.2);
+}
+
+@media(max-width: 800px) {
+	#container {
+		width: 90%;
+	}
+}
+
+#search-form {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#field-container {
+	display: block;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.search-field {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	width: 45%;
+	padding: 11px 7px;
+	padding-right: 43px;
+	background: white;
+	color: #ccc;
+	border: 1px solid #c8c8c8;
+	font-size: 1.0em;
+	border-bottom-color: #d2e2e7;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 6px #333333;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 6px #333333;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 0 6px #333333;
+}
+
+#search-button {
+	background: url(../img/search-icon.png) no-repeat center;
+	position: absolute;
+	right: 55%;
+	top: 0px;
+	height: 42px;
+	width: 32px;
+	border: 0;
+	cursor: pointer;
+	zoom: 1;
+	filter: alpha(opacity=65);
+	opacity: 0.65;
+	z-index: 100;
+}
